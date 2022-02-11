@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+<h1 class="logo">MSC Virtuosa</h1>
+<ul class="nav-links">
+ <li><a href="#"></a>Home</li>
+ <li><a href="#"></a>Explore</li>
+ <li><a href="#"></a>Events</li>
+ <li><a href="#"></a>About Us</li>
+ <li class="ctn"><a href="#"></a>Contact</li>
+</ul>
+<img src="./images/menu-btn.png" alt="" class="menu-btn">
+</nav>
+
+ <header>
+  <div class="header-content">
+   <h2> Spend A Special Time</h2>
+   <div class="line"></div>
+   <h1> Best Cruise</h1>
+   <a href="https://www.princess.com/" class="ctn">Learn More</a>
+  </div>
+ </header>
+
+<section class="explore">
+ <div class="title">Explore
+  <div class="line"></div>
+ </div>
+ <div class="row">
+  <div class="col">
+   <img src="./images/pexels-photo-1320684.jpeg" height="400px" width="450px"alt="">
+   <h4>Thailand sea</h4>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo suscipit aperiam perferendis provident ipsum id tempora, nihil quisquam ducimus consequatur nisi, aut repellendus aspernatur, libero ratione placeat animi reprehenderit eveniet?</p>
+   <a href="#" class="ctn">Learn More</a>
+  </div>
+  <div class="col">
+   <img src="./images/istockphoto-1220728836-170667a.jpg" height=" 400px" width="450px"alt="">
+   <h4>Tropical Island</h4>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo suscipit aperiam perferendis provident ipsum id tempora, nihil quisquam ducimus consequatur nisi, aut repellendus aspernatur, libero ratione placeat animi reprehenderit eveniet?</p>
+   <a href="#" class="ctn">Learn More</a>
+  </div>
+ </div>
+</section>
+
+<section class="about-us">
+<div class="about-us-content">
+  <h1>About Us(About Virtuosa)</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla autem nostrum labore? Harum, dolores repudiandae? Magni voluptatum nam quisquam dicta fuga. Officiis quisquam ut, voluptatum harum fuga rem ullam accusamus?
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt est quibusdam minima debitis fugit quod reprehenderit eaque hic, facilis architecto dolorem quam omnis illo eum dolor, ducimus aut, fugiat et.
+  </p>
+  <a href="#" class="ctn">Learn More</a>
+</div>
+</section>
+
+<section class="events">
+ <div class="row">
+    <div class="col content-col">
+       <h1>Upcoming Events</h1>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime blanditiis vel tempora nisi culpa quisquam debitis earum eveniet, nostrum architecto? Iste odit aspernatur minus explicabo placeat necessitatibus dolor dolores enim.</p>
+       <a href="#" class="ctn">Learn More</a>
+    </div>
+    <div class="col image-col">
+     <div class="image-gallery">
+      <img src="./images/dining room.jpg" alt="">
+      <img src="./images/Norwegian-Cruise-Line_Haven.jpg" alt="">
+      <img src="./images/MSC_Waterslide_770.png" alt="">
+      <img src="./images/karaoke.jpg" alt="">
+    </div>
+ </div>
+</section>
+
+
+<section class="footer">
+ <p>© 2022, Princess Cruise Lines, Ltd. All Rights Reserved. Site content may not be reproduced without express written permission.</p>
+ <p>Copyright © 2015 All Rights Reserved. All content posted at OutdoorEd.com is Copyrighted by Outdoor Ed LLC except where specifically noted.</p>
+</section>
+
+
+ <script>
+  const menuBtn = document.querySelector('.menu-btn')
+  const navLinks = document.querySelector('.nav-links')
+
+  menuBtn.addEventListener('click',()=>{
+   navLinks.classList.toggle('mobile-menu')
+  })
+ </script>
+</body>
+</html>
